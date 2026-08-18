@@ -1,0 +1,7 @@
+index,offset_m,mid_x_px,mid_y_px,delta_px_from_base,image_path
+0,0.0000,362.50,249.85,0.00,/data/wzd/calibration/calib_0_origin.jpg
+1,-0.2000,284.15,249.09,-78.35,/data/wzd/calibration/calib_1_offset-0.200.jpg
+2,-0.1000,369.22,250.09,6.72,/data/wzd/calibration/calib_2_offset-0.100.jpg
+3,0.0000,362.50,249.85,0.00,/data/wzd/calibration/calib_0_origin.jpg
+4,0.1000,414.86,249.16,52.35,/data/wzd/calibration/calib_4_offset+0.100.jpg
+5,0.2000,432.70,247.27,70.20,/data/wzd/calibration/calib_5_offset+0.200.jpg

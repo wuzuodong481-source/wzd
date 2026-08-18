@@ -1,0 +1,13 @@
+{
+  "timestamp": "20260813_152457",
+  "num_points": 6,
+  "base_mid_x_px": 362.5038757324219,
+  "fit": {
+    "slope_k_px_per_m": 342.7431640625,
+    "intercept_b_px": 8.486681620279947,
+    "rmse_px": 16.70306651847519,
+    "r_squared": 0.8752757340152196
+  },
+  "px_to_meter": 0.0029176366003835098,
+  "note": "正 k 表示底盘左移 (正 y) 时中点 x 增大; 实际纠偏时 y_meters = -delta_px * px_to_meter"
+}
