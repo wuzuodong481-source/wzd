@@ -1,0 +1,78 @@
+Log file created at: 2026/07/13 09:44:22
+Running on machine: localhost.localdomain
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0713 09:44:22.158047 470846 dylog_impl.cpp:641] [DYLOG] set dylog default level to INFO
+I0713 09:44:22.158097 470846 dylog_impl.cpp:690] [DYLOG] soc num : it
+I0713 09:44:22.158103 470846 dylog_impl.cpp:695] [DYLOG] can't read scene_mode, use sud
+W0713 09:44:22.158135 470846 dylog_impl.cpp:757] [DYLOG] can't find available json config file with path : /home/agi/app/conf/scene_server/dylog_sud_default.json, use default.
+I0713 09:44:22.158195 470846 dylog_impl.cpp:293] [DYLOG] register dsd_name : dylog/python3.12/cosine_internal
+I0713 09:44:22.161105 470846 cosine_bus_manager.cpp:142] [cosine_internal][CosineBusManager] cosine bus config path not set, use default config.
+I0713 09:44:22.161134 470846 cosine_bus_manager.cpp:175] [cosine_internal][CosineBusManager] initial cosine_bus_config:
+I0713 09:44:22.162019 470846 cosine_bus_global_sync.cpp:30] [cosine_internal][BusGlobalSync] set default middleware name:aorta
+I0713 09:44:22.162041 470846 scheduler_classic.cpp:28] [cosine_internal]Proc number set to be: 1
+I0713 09:44:22.162703 470846 dynamic_object.cpp:521] [cosine_internal][DynamicObject] open libdynamic_aorta.so success.
+I0713 09:44:22.162833 470846 dynamic_object.cpp:581] [cosine_internal][DynamicObject] Successfully enumerated 70 symbols in libdynamic_aorta.so
+I0713 09:44:22.162839 470846 resource_loader.cpp:13] [cosine_internal][ResourceLoader] Attempting to load function: aorta_get_object
+I0713 09:44:22.162843 470846 resource_loader.cpp:17] [cosine_internal][ResourceLoader] Trying address() method for C++ symbol: aorta_get_object
+I0713 09:44:22.162847 470846 resource_loader.cpp:20] [cosine_internal][ResourceLoader] Successfully loaded C++ symbol: aorta_get_object
+I0713 09:44:22.162850 470846 resource_loader.cpp:13] [cosine_internal][ResourceLoader] Attempting to load function: aorta_call_object_func
+I0713 09:44:22.162853 470846 resource_loader.cpp:17] [cosine_internal][ResourceLoader] Trying address() method for C++ symbol: aorta_call_object_func
+I0713 09:44:22.162868 470846 resource_loader.cpp:20] [cosine_internal][ResourceLoader] Successfully loaded C++ symbol: aorta_call_object_func
+I0713 09:44:22.162870 470846 resource_loader.cpp:13] [cosine_internal][ResourceLoader] Attempting to load function: aorta_clean_up
+I0713 09:44:22.162873 470846 resource_loader.cpp:17] [cosine_internal][ResourceLoader] Trying address() method for C++ symbol: aorta_clean_up
+I0713 09:44:22.162885 470846 resource_loader.cpp:25] [cosine_internal][ResourceLoader] C++ symbol failed, trying c_address() method for C symbol: aorta_clean_up
+I0713 09:44:22.162889 470846 resource_loader.cpp:28] [cosine_internal][ResourceLoader] Successfully loaded C symbol: aorta_clean_up
+I0713 09:44:22.162895 470846 aorta_component.cpp:85] [cosine_internal][AortaComponent] use env var [LOCATOR_IP]:10.42.1.101
+I0713 09:44:22.162899 470846 aorta_component.cpp:100] [cosine_internal][AortaComponent] use env var [AORTA_DISCOVERY_URI]:http://10.42.1.101:2379
+I0713 09:44:22.162901 470846 aorta_component.cpp:496] [cosine_internal][AortaComponent] locator_ip: 10.42.1.101; Check network before domain init 
+I0713 09:44:22.162927 470846 clock.cpp:22] [cosine_internal]load ptp time source from: libptp_clock_time.so
+I0713 09:44:22.163033 470846 dynamic_object.cpp:521] [cosine_internal][DynamicObject] open libptp_clock_time.so success.
+I0713 09:44:22.163584 470846 aorta_component.cpp:515] [cosine_internal][AortaComponent] Network check start. locator_ip: 10.42.1.101, timeout: 60 seconds , check_start_time: 1783907062
+I0713 09:44:22.163602 470846 aorta_component.cpp:526] [cosine_internal][AortaComponent] locator_ip: 10.42.1.101; network is ready.
+I0713 09:44:22.164085 470846 dylog_impl.cpp:293] [DYLOG] register dsd_name : dylog/python3.12/aorta
+I0713 09:44:22.164196 470846 pcie_config.cc:52] [aorta]Get one valid pcie channel. producer: soc-s3 app-map_loc_app endpoint-nvscic2c_pcie_s3_c7_11 consumer: soc-s1 app-worldmodel endpoint-nvscic2c_pcie_s1_c7_11
+I0713 09:44:22.164247 470846 os.cc:88] [aorta]Got host_id from system files: NVIDIA Jetson AGX Thor Developer Kit
+I0713 09:44:22.164263 470846 pcie_manager.cc:71] [aorta]There is no pcie config in current process.
+I0713 09:44:22.164459 470846 message_monitor_config.cc:398] [aorta]run in  mode
+I0713 09:44:22.165098 470846 domain_impl.cc:58] [aorta]aorta version:7b1b7ddc45
+I0713 09:44:22.165114 470846 json_comm.cc:35] [aorta]file path: /home/agi/app/conf/topology/topology_rule.json not exist.
+I0713 09:44:22.165120 470846 message_monitor_config.cc:398] [aorta]run in  mode
+I0713 09:44:22.165475 470846 message_monitor_config.cc:731] [aorta]message monitor is updated from /home/agi/app/conf/aorta/function/aorta_monitor_conf.json
+I0713 09:44:22.165997 470846 discovery_factory.cc:14] [aorta]type:1, host:10.42.1.101, port:2379, ttl:15, minor_cycle:100, major_cycle:3
+I0713 09:44:22.166309 470846 config.cc:53] [aorta]AORTA_IP_MASK not set.
+I0713 09:44:22.166316 470846 discovery.cc:245] [aorta]get ip masks empty.
+I0713 09:44:22.166321 470846 config.cc:200] [aorta]AORTA_EXTRA_LOCAL_IPS not set.
+I0713 09:44:22.166324 470846 discovery.cc:266] [aorta]local_publisher_ips_ empty.
+I0713 09:44:22.166332 470846 config.cc:124] [aorta]ip match, ip:127.0.0.1
+I0713 09:44:22.166337 470846 config.cc:124] [aorta]ip match, ip:172.17.0.1
+I0713 09:44:22.166343 470846 discovery.cc:275] [aorta]default emplace ip:10.42.0.101
+I0713 09:44:22.166347 470846 discovery.cc:275] [aorta]default emplace ip:10.42.80.101
+I0713 09:44:22.166348 470846 discovery.cc:275] [aorta]default emplace ip:10.185.207.191
+I0713 09:44:22.166352 470846 discovery.cc:275] [aorta]default emplace ip:10.42.0.60
+I0713 09:44:22.166353 470846 discovery.cc:275] [aorta]default emplace ip:10.42.1.101
+I0713 09:44:22.166356 470846 discovery.cc:275] [aorta]default emplace ip:10.42.2.101
+I0713 09:44:22.166358 470846 discovery.cc:275] [aorta]default emplace ip:10.20.15.60
+I0713 09:44:22.166360 470846 discovery.cc:275] [aorta]default emplace ip:10.42.6.101
+I0713 09:44:22.166364 470846 centralized_discovery.cc:55] [aorta]lease_ttl_:15
+I0713 09:44:22.166572 470846 aorta_component.cpp:561] [cosine_internal][AortaComponent] aorta create domain success. uri:http://10.42.1.101:2379
+I0713 09:44:22.166637 470846 aorta_component.cpp:447] [cosine_internal][AortaComponent] aorta domain created node: python3.12_S1 , domain_uri:http://10.42.1.101:2379
+I0713 09:44:22.166641 470846 aorta_component.cpp:126] [cosine_internal][AortaComponent] aorta component init success. node:python3.12_S1, uri:http://10.42.1.101:2379, locator_kind(1:shm,2:tcp,3:udp):2, locator_ip:10.42.1.101, locator_port:0, aorta_dispatcher_thread_num:1
+I0713 09:44:22.166756 470856 executor_impl.cc:91] [aorta]aorta-dispatch0 start spinning
+I0713 09:44:22.166949 470852 processor.cpp:40] [cosine_internal]processor_tid: 470852
+I0713 09:44:22.181952 470855 centralized_discovery.cc:1110] [aorta]poll thread: revision:1542
+I0713 09:44:22.182046 470855 centralized_discovery.cc:1123] [aorta]inotify_fd_:16 inotify_watch_:1 inotify_watch_path:/home/agi/app/conf/aorta/function
+I0713 09:44:22.184249 470855 centralized_discovery.cc:615] [aorta]grant lease for node python3.12_S1 lease_id = 7587896150949941171
+I0713 09:44:22.184826 470846 cosine_bus_manager.cpp:241] [cosine_internal][CosineBusManager] release.
+I0713 09:44:22.184856 470846 scheduler.cpp:144] [cosine_internal]Shutdown: Stopping 1 processor threads
+I0713 09:44:22.184862 470846 processor.cpp:73] [cosine_internal]processor 470852 stopping... waiting for thread to join...
+I0713 09:44:22.185178 470852 processor.cpp:60] [cosine_internal]processor_tid: 470852 stopped
+I0713 09:44:22.185420 470846 scheduler.cpp:148] [cosine_internal]Shutdown: All processor threads stopped
+I0713 09:44:22.185431 470846 scheduler.cpp:161] [cosine_internal]Shutdown: Force releasing locks for 0 coroutines
+I0713 09:44:22.185437 470846 aorta_component.cpp:140] [cosine_internal][AortaComponent] release.
+I0713 09:44:22.185472 470856 executor_impl.cc:184] [aorta]aorta-dispatch0 stop spinning
+I0713 09:44:22.204123 470846 dynamic_object.cpp:503] [cosine_internal][DynamicObject] close libptp_clock_time.so success.
+I0713 09:44:22.204147 470846 aorta_component.cpp:140] [cosine_internal][AortaComponent] release.
+I0713 09:44:22.204154 470846 aorta_component.cpp:35] [cosine_internal][AortaComponent] destruct. aorta_map_ size:0 ,aorta_callback_info_map_ size:0
+I0713 09:44:22.204159 470846 aorta_resource_loader.cpp:31] [cosine_internal][AortaResourceLoader] destruct.
+I0713 09:44:22.204173 470846 dynamic_object.cpp:505] [cosine_internal][DynamicObject] keeping libdynamic_aorta.so loaded for safety (detached mode).
+I0713 09:44:22.204190 470846 cosine_bus_manager.cpp:97] [cosine_internal][CosineBusManager] destruct.
