@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-08-17 15:22:23",
+  "left_ee": {
+    "position": [
+      0.353396,
+      0.171191,
+      0.797416
+    ],
+    "orientation": [
+      0.610318,
+      -0.188988,
+      0.746299,
+      0.186633
+    ]
+  },
+  "right_ee": {
+    "position": [
+      0.795935,
+      -0.124544,
+      1.038999
+    ],
+    "orientation": [
+      0.632192,
+      -0.000643,
+      0.774644,
+      -0.016115
+    ]
+  },
+  "joints": {
+    "idx21_arm_l_joint1": 2.179724,
+    "idx22_arm_l_joint2": -1.069171,
+    "idx23_arm_l_joint3": -1.160435,
+    "idx24_arm_l_joint4": -1.981626,
+    "idx25_arm_l_joint5": -0.071783,
+    "idx26_arm_l_joint6": -0.526628,
+    "idx27_arm_l_joint7": 0.065765,
+    "idx61_arm_r_joint1": -0.621615,
+    "idx62_arm_r_joint2": -1.675618,
+    "idx63_arm_r_joint3": 1.301212,
+    "idx64_arm_r_joint4": -0.846698,
+    "idx65_arm_r_joint5": 0.132146,
+    "idx66_arm_r_joint6": 0.015992,
+    "idx67_arm_r_joint7": -0.252201
+  }
+}
